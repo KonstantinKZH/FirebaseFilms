@@ -1,0 +1,10 @@
+@import "../blocks/list-films.css";
+@import "../blocks/checkbox.css";
+@import "../blocks/container.css";
+@import "../blocks/body.css";
+@import "../blocks/scroll.css";
+@import "../blocks/modifier-cards-films.css";
+
+@import "../vendor/reset.css";
+@import "../vendor/fonts.css";
+

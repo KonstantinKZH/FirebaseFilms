@@ -1,0 +1,246 @@
+.viewing-films{
+    padding-top: 80px;
+}
+
+.viewing-films__header{
+    margin-bottom: 45px;
+    padding-left: 74px;
+}
+
+.viewing-films__header-items{
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.list{
+    width: 183px;
+    height: 30px;
+    text-transform: uppercase;
+}
+
+.number-year{
+    width: 75px;
+    height: 30px;
+}
+
+.list_stile{
+    border-radius: 200px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    color: #F3F6F9;
+    background-color: #6532F8;
+    border: 1px solid #6532F8;
+}
+
+.name-site{
+    font-weight: 400;
+    font-size: 120.416px;
+    line-height: 138px;
+    color: #F3F6F9;
+}
+
+
+/* Следующий блок */
+.viewing-films__list{
+    margin: 0 auto;
+    width: 930px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: #232323;;
+}
+
+.viewing-films__list-wrapper{
+    margin: 0 auto;
+    width: 830px;
+    max-height: 100%;
+    padding-top: 60px;
+    overflow-y: auto;
+}
+
+.input{
+    margin-left: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    column-gap: 20px;
+}
+
+.input-add-films{
+    width: 441px;
+    height: 51px;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    color: #F3F6F9;
+
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+}
+
+.input__btn-add{
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 15px 15px;
+
+    background-color: #6532F8;
+    border-radius: 50%;
+    box-sizing: content-box;
+    transition: all .2s linear;
+}
+
+.button-add-films{
+    padding-right: 15px;
+    border: none;
+    background: transparent;
+}
+
+.input__btn-add:active{
+    transform: scale(0.9);
+}
+
+
+/* Стилизация карточек фильмов */
+.card-film{
+    margin-bottom: 5px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 790px;
+    height: 71px;
+    border-radius: 10px;
+    background-color: #3A3939;
+}
+
+.card-film__item{
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.film-content{
+    margin-left: 20px;
+    color: #F3F6F9;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn-cross{
+    width: 23px;
+    height: 23px;
+    margin-right: 20px;
+    border: none;
+    background-image: url("../resources/icons/cross-delete/cross-delete.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    background-color: transparent;
+
+    transition: all .3s linear;
+}
+
+.btn-cross:active{
+    transform: scale(0.9);
+}
+
+@media (max-width: 730px){
+	.viewing-films{
+        padding-top: 20px;
+    }
+    
+    .viewing-films__header{
+        margin-bottom: 20px;
+        padding-left: 20px;
+    }
+    
+    .viewing-films__header-items{
+        margin-bottom: 5px;
+    }
+    
+    .list{
+        width: 130px;
+        height: 25px;
+        text-transform: uppercase;
+    }
+    
+    .number-year{
+        width: 75px;
+        height: 25px;
+    }
+    
+    .list_stile{
+        font-size: 10px;
+        line-height: 25px;
+    }
+    
+    .name-site{
+        font-size: 40px;
+        line-height: 58px;
+    }
+    
+    /* Следующий блок */
+    .viewing-films__list{
+        width: 100%;
+        height: 220px;
+    }
+    
+    .viewing-films__list-wrapper{
+        width: 100%;
+        padding-top: 20px;
+    }
+    
+    .input-add-films{
+        width: 100%;
+        height: 30px;
+        outline: none;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background: transparent;
+        color: #F3F6F9;
+    
+        font-size: 15px;
+        line-height: 34px;
+    }
+    
+    .input__btn-add{
+        display: block;
+        width: 15px;
+        height: 15px;
+        padding: 15px 15px;
+    
+        background-color: #6532F8;
+        border-radius: 50%;
+        box-sizing: content-box;
+        transition: all .2s linear;
+    }
+    
+    .list-films{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .card-film{
+        margin-bottom: 3px;
+        margin-left: 0px;
+        width: 100%;
+        height: 50px;
+    }
+    
+    .film-content{
+        margin-left: 5px;
+        font-size: 18px;
+    }
+    
+    .btn-cross{
+        width: 15px;
+        height: 15px;
+        margin-right: 20px;
+    }
+}

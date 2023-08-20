@@ -1,0 +1,11 @@
+.card-film_blackout{
+    opacity: 0.5;
+}
+
+.film-content_cross-out{
+    text-decoration: line-through;
+}
+
+.label_background::after{
+    background-color:  #6532F8;
+}
